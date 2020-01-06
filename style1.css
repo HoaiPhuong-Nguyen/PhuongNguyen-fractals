@@ -1,0 +1,55 @@
+html, body {
+	font-family: 'Lato', sans-serif;
+	color: #FFFFFF
+	background-color: #000000;
+	margin: 0;
+}
+
+.page-title {
+  text-align: center;
+  font-weight: bold;
+  font-family:"Lucida Console", monospace;
+  font-size: 5em;
+  text-shadow: 3px 2px blue;
+}
+
+.page-description{
+	text-align: center;
+	font-family: "Courier New", monospace;
+	border-style: double;
+	border-width: 10px
+	margin: 2px;
+	padding: 30px;
+}
+
+.scripts{
+	text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+/*now we hide the dropdown */
+.dropdown li {
+    visibility: hidden;
+	font-family: "Courier New", monospace;
+	text-decoration: none;
+}
+/* Now, it would be nice if the menu items (hover) where on one line, not below each other.  */
+#hovermenu > li {
+  display: inline-block;
+  font-family: "Arial Black", sans-serif;
+  font-size: 3em;
+  text-decoration: overline;
+}
+/* If you hover over the list inside hover menu, the dropdown menu becomes visible*/
+#hovermenu > li:hover li {
+    visibility: visible;
+	font-family: "Courier New", monospace;
+	font-size: 0.5em;
+}
+
+.des{
+	text-decoration: none;
+}
